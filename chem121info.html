@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple HTML Template</title>
+</head>
+<body>
+	<h1>Chemical Materials, Strain </h1>
+	<p>Metals are used in engineering designs for many reasons, but they generally
+        serve as structural elements. Thus, we shall initially concentrate on the mechanical properties of metals in this chapter.
+        METALS
+        The mechanical properties discussed next are not exhaustive but instead are
+        intended to cover the major factors in selecting a durable material for structural
+        applications under a variety of service conditions. As we go through these various
+        properties, an attempt will be made to use a consistent and comprehensive set of
+        sample metals and alloys to demonstrate typical data and, especially, important
+        data trends.
+        
+        170 CHAPTER 6 Mechanical Behavior
+        Perhaps, the simplest questions that a design engineer can ask about a
+        structural material are (1) “How strong is it?” and (2) “How much deformation
+        must I expect given a certain load?” This basic description of the material is
+        obtained by the tensile test. Figure 6.1 illustrates this simple pull test. The load
+        necessary to produce a given elongation is monitored as the specimen is pulled in
+        tension at a constant rate. A load-versus-elongation curve (Figure 6.2) is the
+        immediate result of such a test. A more general statement about material characteristics is obtained by normalizing the data of Figure 6.2 for geometry. The
+        resulting stress-versus-strain curve is given in Figure 6.3. Here, the engineering
+        stress, s, is defined as
+        s = P
+        A0
+        , (6.1)
+        where P is the load on the sample with an original (zero-stress) cross-sectional
+        area, A0. Sample cross-section refers to the region near the center of the specimen’s length. Specimens are machined such that the cross-sectional area in this
+        region is uniform and smaller than at the ends gripped by the testing machine.
+        This smallest area region, referred to as the gage length, experiences the largest stress concentration so that any significant deformation at higher stresses is
+        localized there. The engineering strain, P, is defined as
+        P = l - l0
+        l0
+        = ∆l
+        l0
+        , (6.2)
+        where l is the gage length at a given load and l0 is the original (zero-stress)
+        length. Figure 6.3 is divided into two distinct regions: (1) elastic deformation
+        and (2) plastic deformation. Elastic deformation is temporary deformation. It is
+        fully recovered when the load is removed. The elastic region of the stress—strain
+        curve is the initial linear portion. Plastic deformation is permanent deformation.
+        It is not recovered when the load is removed, although a small elastic component
+        is recovered. The plastic region is the nonlinear portion generated once the total
+        strain exceeds its elastic limit. It is often difficult to specify precisely the point
+        Load cell
+        Grip
+        Grip
+        Specimen
+        Crosshead
+        Gage length
+        FIGURE 6.1 Tensile test.
+        100
+        50
+        0
+        012345
+        Fracture
+        Load (103 N)
+        Elongation, mm
+        FIGURE 6.2 Load-versus-elongation
+        curve obtained in a tensile test. The
+        specimen was aluminum 2024-T81.
+        500
+        0
+        0 0.02 0.04 0.06 0.08 0.10
+        400
+        300
+        200
+        100
+        Strain, (mm/mm)
+        Stress, (MPa)
+        FIGURE 6.3 Stress-versus-strain curve
+        obtained by normalizing the data of
+        Figure 6.2 for specimen geometry.
+        
+        SECTION 6.1 Stress Versus Strain 171
+        at which the stress—strain curve deviates from linearity and enters the plastic
+        region. The usual convention is to define as yield strength (Y.S.) the intersection of the deformation curve with a straight line parallel to the elastic portion
+        and offset 0.2% on the strain axis (Figure 6.4). The yield strength represents the
+        stress necessary to generate this small amount (0.2%) of permanent deformation. Figure 6.5 indicates the small amount of elastic recovery that occurs when a
+        load well into the plastic region is released.
+        Figure 6.6 summarizes the key mechanical properties obtained from the
+        tensile test. The slope of the stress—strain curve in the elastic region is the
+        modulus of elasticity, E, also known as Young’s* modulus. The linearity of the
+        stress—strain plot in the elastic region is a graphical statement of Hooke’s† law:
+        s = EP. (6.3)
+        The modulus, E, is a highly practical piece of information. It represents the stiffness of the material (i.e., its resistance to elastic strain), which manifests itself
+        as the amount of deformation in normal use below the yield strength and the
+        springiness of the material during forming. As with E, the yield strength has
+        major practical significance. It shows the resistance of the metal to permanent
+        deformation and indicates the ease with which the metal can be formed by
+        rolling and drawing operations.
+        500
+        0
+        0 0.002 0.004 0.006 0.008 0.010
+        400
+        300
+        200
+        100
+        Yield strength
+        Stress, (MPa)
+        Strain, (mm/mm)
+        FIGURE 6.4 The yield strength is defined
+        relative to the intersection of the stress—
+        strain curve with a “0.2% offset.” Yield
+        strength is a convenient indication of the
+        onset of plastic deformation.
+        Elastic recovery
+        Strain, (mm/mm)
+        Stress, (MPa)
+        500
+        0
+        0 0.01 0.02
+        400
+        300
+        200
+        100
+        FIGURE 6.5 Elastic recovery occurs when stress is removed from a
+        specimen that has already undergone plastic deformation.
+        *Thomas Young (1773–1829), English physicist and physician, was the first to define the modulus of
+        elasticity. Although this contribution made his name a famous one in solid mechanics, his most brilliant achievements were in optics. He was largely responsible for the acceptance of the wave theory
+        of light.
+        †
+        Robert Hooke (1635–1703), English physicist, was one of the most brilliant scientists of the 17th
+        century as well as one of its most cantankerous personalities. His quarrels with fellow scientists such
+        as Sir Isaac Newton did not diminish his accomplishments, which included the elastic behavior law
+        (Equation 6.3) and the coining of the word “cell” to describe the structural building blocks of biological systems that he discovered in optical-microscopy studies.
+        
+        172 CHAPTER 6 Mechanical Behavior
+        Although we are concentrating on the behavior of metals under tensile loads,
+        the testing apparatus illustrated in Figure 6.1 is routinely used in a reversed mode
+        to produce a compressive test. The elastic modulus, in fact, tends to be the same for
+        metal alloys tested in either tensile or compressive modes. Later, we will see that
+        the elastic behavior under shear loads is also related to the tensile modulus.
+        One should note that many design engineers, especially in the aerospace
+        field, are more interested in strength-per-unit density than strength or density
+        individually. (If two alloys each have adequate strength, the one with lower density is preferred for potential fuel savings.) The strength-per-unit density is generally termed specific strength, or strength-to-weight ratio, and is discussed relative
+        to composite properties in Chapter 12. Another term of practical engineering
+        importance is residual stress, defined as the stress remaining within a structural
+        material after all applied loads are removed. This stress commonly occurs following various thermomechanical treatments such as welding and machining.
+        As the plastic deformation represented in Figure 6.6 continues at stresses
+        above the yield strength, the engineering stress continues to rise toward a maximum. This maximum stress is termed the ultimate tensile strength, or simply the
+        tensile strength (T.S.). Within the region of the stress–strain curve between Y.S.
+        and T.S., the phenomenon of increasing strength with increasing deformation is
+        referred to as strain hardening. Strain hardening is an important factor in shaping metals by cold working (i.e., plastic deformation occurring well below onehalf times the absolute melting point). It might appear from Figure 6.6 that
+        plastic deformation beyond T.S. softens the material because the engineering
+        stress falls. Instead, this drop in stress is simply the result of the fact that engineering stress and strain are defined relative to original sample dimensions. At
+        the ultimate tensile strength, the sample begins to neck down within the gage
+        length (Figure 6.7). The true stress (str = P>Aactual) continues to rise to the point
+        of fracture (see Figure 6.8). Because of the substantial deformation of the sample
+        geometry beyond the ultimate tensile strength, that point along the stress–strain
+        curve corresponding to the ultimate tensile strength is sometimes referred to as
+        the onset of plastic instability.
+        3
+        2
+        1 5
+        4 Strain
+        Stress
+        FIGURE 6.6 The key mechanical properties obtained from a tensile test: 1, modulus of
+        elasticity, E; 2, yield strength, Y.S.; 3, tensile strength, T.S.; 4, ductility, 100 * Pfailure (note that
+        elastic recovery occurs after fracture); and 5, toughness = 1sdP (measured under load;
+        hence, the dashed line is vertical).
+        
+        SECTION 6.1 Stress Versus Strain 173
+        For many metals and alloys, the region of the true stress (sT) versus true
+        strain (PT) curve between the onset of plastic deformation (corresponding to the
+        yield stress in the engineering stress versus engineering strain curve) and the
+        onset of necking (corresponding to the tensile stress in the engineering stress
+        versus engineering strain curve) can be approximated by
+        sT = KPn
+        T, (6.4)
+        where K and n are constants with values for a given metal or alloy depending on
+        its thermomechanical history (e.g., degree of mechanical working or heat treatment). In other words, the true stress versus true strain curve in this region is nearly
+        straight when plotted on logarithmic coordinates. The slope of the log–log plot is
+        the parameter n, which is termed the strain-hardening exponent. For low-carbon
+        steels used to form complex shapes, the value of n will normally be approximately
+        0.22. Higher values, up to 0.26, indicate an improved ability to be deformed during
+        the shaping process without excess thinning or fracture of the piece.
+        The engineering stress at failure in Figure 6.6 is lower than T.S. and occasionally even lower than Y.S. Unfortunately, the complexity of the final stages of
+        neck down causes the value of the failure stress to vary substantially from specimen to specimen. More useful is the strain at failure. Ductility is frequently quantified as the percent elongation at failure (= 100 * Pfailure). A less-used definition
+        is the percent reduction in area [= (A0 - Afinal)>A0]. The values for ductility
+        from the two different definitions are not, in general, equal. It should also be
+        noted that the value of percent elongation at failure is a function of the gage
+        length used. Tabulated values are frequently specified for a gage length of 2 in
+        (= 50.8 mm). Ductility indicates the general ability of the metal to be plastically
+        deformed. Practical implications of this ability include formability during
+        FIGURE 6.7 Neck down
+        of a tensile test specimen
+        within its gage length after
+        extension beyond the
+        tensile strength. (Courtesy
+        of R. S. Wortman.)
+        0
+        0
+        200
+        400
+        600
+        800
+        1,000
+        0.2 0.4 0.6
+        Engineering or true strain (mm/mm)
+        Engineering or true stress (MPa)
+        0.8 1.0
+        FIGURE 6.8 True stress (load divided by actual area in the necked-down region)
+        continues to rise to the point of fracture, in contrast to the behavior of engineering stress. In
+        this example, the true stress–true strain data are shown in contrast to the engineering stress–
+        engineering strain for a 1020 carbon steel (iron with 0.20 wt % C).
+        
+        174 CHAPTER 6 Mechanical Behavior
+        fabrication and relief of locally high stresses at crack tips during structural loading (see the discussion of fracture toughness in Chapter 8).
+        It is also useful to know whether an alloy is both strong and ductile. A
+        high-strength alloy that is also highly brittle may be as unusable as a deformable
+        alloy with unacceptably low strength. Figure 6.9 compares these two extremes
+        with an alloy with both high strength and substantial ductility. The term
+        toughness is used to describe this combination of properties. Figure 6.6 shows
+        that this is conveniently defined as the total area under the stress–strain curve.
+        Since integrated s - P data are not routinely available, we shall be required to
+        monitor the relative magnitudes of strength (Y.S. and T.S.) and ductility (percent elongation at fracture).
+        Values of four of the five basic tensile test parameters (defined in Figure 6.6)
+        for various alloys are given in Table 6.1. Values of the strain-hardening parameters of Equation 6.4, K and n, are given in Table 6.2.
+        The general appearance of the stress-versus-strain curve in Figure 6.3 is
+        typical of a wide range of metal alloys. For certain alloys (especially low-carbon
+        steels), the curve of Figure 6.10 is obtained. The obvious distinction for this latter
+        case is a distinct break from the elastic region at a yield point, also termed an
+        upper yield point. The distinctive ripple pattern following the yield point is associated with nonhomogeneous deformation that begins at a point of stress concentration (often near the specimen grips). A lower yield point is defined at the
+        end of the ripple pattern and at the onset of general plastic deformation.
+        Figure 6.11 illustrates another important feature of elastic deformation,
+        namely, a contraction perpendicular to the extension caused by a tensile stress.
+        This effect is characterized by the Poisson’s* ratio, v, where
+        n = -
+        Px
+        Pz
+        (6.5)
+        Stress
+        High strength, low ductility, low toughness
+        High strength, high ductility,
+        high toughness
+        Low strength,
+        high ductility,
+        low toughness
+        Strain
+        FIGURE 6.9 The toughness of an alloy depends on a combination of strength and ductility.
+        *Simeon-Denis Poisson (1781–1840), French mathematician, succeeded Fourier in a faculty position at
+        the Ecole Polytechnique. Although he did not generate original results in the way Fourier had, Poisson
+        was a master of applying a diligent mathematical treatment to the unresolved questions raised by others.
+        He is best known for the Poisson distribution dealing with probability for large number systems.
+        
+        SECTION 6.1 Stress Versus Strain 175
+        TABLE 6.1
+        Tensile Test Data for Some Typical Metal Alloys
+        Alloy*
+        E
+        [GPa (psi)]
+        Y.S.
+        [MPa (ksi)]
+        T.S.
+        [MPa (ksi)]
+        Percent
+        elongation
+        at failure
+        1. 1040 carbon steel 200 (29 * 106
+        ) 600 (87) 750 (109) 17
+        2. 8630 low-alloy steel 680 (99) 800 (116) 22
+        3. a. 304 stainless steel 193 (28 * 106
+        ) 205 (30) 515 (75) 40
+        b. 410 stainless steel 200 (29 * 106
+        ) 700 (102) 800 (116) 22
+        4. L2 tool steel 1,380 (200) 1,550 (225) 12
+        5. Ferrous superalloy (410) 200 (29 * 106
+        ) 700 (102) 800 (116) 22
+        6. a. Ductile iron, quench 165 (24 * 106
+        ) 580 (84) 750 (108) 9.4
+        b. Ductile iron, 60–40–18 169 (24.5 * 106
+        ) 329 (48) 461 (67) 15
+        7. a. 3003-H14 aluminum 70 (10.2 * 106
+        ) 145 (21) 150 (22) 8–16
+        b. 2048, plate aluminum 70.3 (10.2 * 106
+        ) 416 (60) 457 (66) 8
+        8. a. AZ31B magnesium 45 (6.5 * 106
+        ) 220 (32) 290 (42) 15
+        b. AM100A casting magnesium 45 (6.5 * 106
+        ) 83 (12) 150 (22) 2
+        9. a. Ti–5Al–2.5Sn 107-110 (15.5-16 * 106
+        ) 827 (120) 862 (125) 15
+        b. Ti–6Al–4V 110 (16 * 106
+        ) 825 (120) 895 (130) 10
+        10. Aluminum bronze, 9%
+        (copper alloy)
+        110 (16.1 * 106
+        ) 320 (46.4) 652 (94.5) 34
+        11. Monel 400 (nickel alloy) 179 (26 * 106
+        ) 283 (41) 579 (84) 39.5
+        12. AC41A zinc 328 (47.6) 7
+        13. 50:50 solder (lead alloy) 33 (4.8) 42 (6.0) 60
+        14. Nb–1 Zr (refractory metal) 68.9 (10 * 106
+        ) 138 (20) 241 (35) 20
+        15. Dental gold alloy (precious
+        metal)
+        310–380
+        (45–55) 20–35
+        *Alloy designations and associated properties cited in this table and Tables 6.3 and 6.10 are from Metals Handbook, 8th ed., Vol. 1, and
+        9th ed., Vols. 1–3, American Society for Metals, Metals Park, OH, 1961, 1978, 1979, and 1980.
+        TABLE 6.2
+        Typical Values of Strain Hardening Parametersa
+         for Various
+        Metals and Alloys
+        Alloy
+        K
+        [MPa (ksi)] n
+        Low-carbon steel (annealed) 530 (77) 0.26
+        4340 low-alloy steel (annealed) 640 (93) 0.15
+        304 stainless steel (annealed) 1,275 (185) 0.45
+        Al (annealed) 180 (26) 0.20
+        2024 aluminum alloy (heat treated) 690 (100) 0.16
+        Cu (annealed) 315 (46) 0.54
+        Brass, 70Cu–30Zn (annealed) 895 (130) 0.49
+        a
+        Defined by Equation 6.4.
+        Source: Data from S. Kalpakjian, Manufacturing Processes for Engineering
+        Materials, Addison-Wesley Publishing Company, Reading, MA, 1984.
+        
+        176 CHAPTER 6 Mechanical Behavior
+        Stress
+        Upper yield point
+        Lower yield point
+        Strain
+        FIGURE 6.10 For a low-carbon steel, the stress-versus-strain curve includes both an upper
+        and lower yield point.
+        z
+        y
+        x
+        (a) Unloaded (b) Loaded
+        FIGURE 6.11 The Poisson’s ratio (v) characterizes the contraction perpendicular to the
+        extension caused by a tensile stress.
+        and where the strains in the x and z directions are defined as shown in Figure 6.11.
+        (There is a corresponding expansion perpendicular to the compression caused by
+        a compressive stress.) Although the Poisson’s ratio does not appear directly on
+        the stress-versus-strain curve, it is, along with the elastic modulus, the most fundamental description of the elastic behavior of engineering materials. Table 6.3
+        summarizes values of v for several common alloys. Note that values fall within
+        the relatively narrow band of 0.26 to 0.35.
+        
+        SECTION 6.1 Stress Versus Strain 177
+        Figure 6.12 illustrates the nature of elastic deformation in a pure shear
+        loading. The shear stress, t, is defined as
+        t = Ps
+        As
+        , (6.6)
+        where PS is the load on the sample and As is the area of the sample parallel
+        (rather than perpendicular) to the applied load. The shear stress produces an
+        angular displacement (a) with the shear strain, g, being defined as
+        g = tan a, (6.7)
+        which is equal to ∆y>z0 in Figure 6.12. The shear modulus, or modulus of rigidity,
+        G, is defined (in a manner comparable to Equation 6.3) as
+        G = t
+        g
+        . (6.8)
+        TABLE 6.3
+        Poisson’s Ratio and Shear Modulus for the Alloys of Table 6.1
+        Alloy v G (GPa) G>E
+        1. 1040 carbon steel 0.30
+        2. 8630 carbon steel 0.30
+        3. a. 304 stainless steel 0.29
+        6. b. Ductile iron, 60–40–18 0.29
+        7. a. 3003-H14 aluminum 0.33 25 0.36
+        8. a. AZ31B magnesium 0.35 17 0.38
+        b. AM100A casting magnesium 0.35
+        9. a. Ti–5Al–2.5Sn 0.35 48 0.44
+        b. Ti–6Al–4V 0.33 41 0.38
+        10. Aluminum bronze, 9% (copper alloy) 0.33 44 0.40
+        11. Monel 400 (nickel alloy) 0.32
+        z
+        y
+        x
+        (a) Unloaded (b) Loaded
+        ¢y
+        z0
+        FIGURE 6.12 Elastic deformation under a shear load.
+        
+        178 CHAPTER 6 Mechanical Behavior
+        The shear modulus, G, and the elastic modulus, E, are related, for small
+        strains, by Poisson’s ratio; namely,
+        E = 2G(1 + n). (6.9)
+        Typical values of G are given in Table 6.3. As the two moduli are related by v
+        (Equation 6.9) and v falls within a narrow band, the ratio of G>E is relatively
+        fixed for most alloys at about 0.4 (see Table 6.3).
+        EXAMPLE 6.1
+        From Figure 6.3, calculate E, Y.S., T.S., and percent elongation at failure for the
+        aluminum 2024-T81 specimen.
+        SOLUTION
+        To obtain the modulus of elasticity, E, note that the strain at
+        s = 300 MPa is 0.0043 (as shown in the following figure). Then,
+        E = s
+        P = 300 * 106
+         Pa
+        0.0043 = 70 GPa.
+        The 0.2% offset construction gives
+        Y.S. = 410 MPa.
+        500
+        400 410
+        480
+        300
+        200
+        100
+        0
+        0 0.02 0.04 0.06 0.08 0.10
+        0.0043
+        (MPa)
+        The maximum for the stress–strain curve gives
+        T.S. = 480 MPa.
+        Finally, the strain at fracture is Pf = 0.08, giving
+        , elongation at failure = 100 * Pf = 8,.
+        
+        SECTION 6.1 Stress Versus Strain 179
+        EXAMPLE 6.2
+        A 10-mm-diameter bar of 1040 carbon steel (see Table 6.1) is subjected to a
+        tensile load of 50,000 N, taking it beyond its yield point. Calculate the elastic
+        recovery that would occur upon removal of the tensile load.
+        SOLUTION
+        Using Equation 6.1 to calculate engineering stress gives
+        s = P
+        Ao
+        = 50,000 N
+        p(5 * 10-3
+         m)2 = 637 * 106 N
+        m2
+        = 637 MPa,
+        which is between the Y.S. (600 MPa) and the T.S. (750 MPa) for this alloy
+        (Table 6.1).
+        The elastic recovery can be calculated from Hooke’s law (Equation 6.3)
+        using the elastic modulus of Table 6.1:
+        P = s
+        E
+        = 637 * 106
+         Pa
+        200 * 109
+         Pa
+        = 3.18 * 10-3
+        .
+        EXAMPLE 6.3
+        (a) A 10-mm-diameter rod of 3003-H14 aluminum alloy is subjected to a 6-kN
+        tensile load. Calculate the resulting rod diameter.
+        (b) Calculate the diameter if this rod is subjected to a 6-kN compressive load.
+        SOLUTION
+        (a) From Equation 6.1, the engineering stress is
+        s = P
+        A0
+        = 6 * 103
+         N
+        p(
+        10
+        2 * 10-3
+         m)2 = 76.4 * 106 N
+        m2 = 76</p>
+</body>
+</html>
